@@ -1,0 +1,18 @@
+<table class="table table-hover">
+  <tr>
+    <th>Task Name</th>
+    <th>Task Description</th>
+    <th>Creator</th>
+    <th>Duration (minutes)</th>
+    <th>Created At</th>
+  </tr>
+  <% allTasks.forEach(function(task) { %>
+  <tr>
+    <td><%= task.taskName %></td>
+    <td><%= task.taskDescription %></td>
+    <td><%= task.creator %></td>
+    <td><%= task.duration %></td>
+    <td><%= task.createdAt %></td>
+  </tr>
+  <% }); %>
+</table>
