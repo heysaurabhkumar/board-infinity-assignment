@@ -5,8 +5,8 @@ Assignment given by Board Infinity.
 URL: https://bi-assignment.herokuapp.com/
 
 ## There are two endpoints
-1. https://bi-assignment.herokuapp.com/add/
-2. https://bi-assignment.herokuapp.com/list/
+1. https://bi-assignment.herokuapp.com/add
+2. https://bi-assignment.herokuapp.com/list
 
 ## To run it on localhost-
 Download this repo and unzip it.
