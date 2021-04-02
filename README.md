@@ -27,3 +27,6 @@ Download this repo and unzip it.
 4. mongoose
 5. node-cron
 
+### Note: Delete operation runs with a delay of maximum of 1 min (0-60sec).
+This is because cron function is running in the interval of one minute. So there's a possibility that the duration of task get expired but it is getting deleted with a delay between 0 sec to 60 sec.
+
